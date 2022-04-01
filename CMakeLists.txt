@@ -35,8 +35,6 @@ target_include_directories(${PROJECT_NAME}
 
 add_executable(${PROJECT_NAME}_test EXCLUDE_FROM_ALL
         test/catch_main.cpp
-
-        test/Rectangle_test.cpp
 )
 
 target_include_directories(${PROJECT_NAME}_test
